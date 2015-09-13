@@ -9,10 +9,10 @@
 	//for 000webhost mysql dbase
 	
          
-    $mysql_host = "localhost:3306";
-	$mysql_database = "tracker-kll";
-	$mysql_user = "root";
-	$mysql_password = "";
+    $mysql_host = ""; //host name
+	$mysql_database = ""; //database name
+	$mysql_user = ""; //user
+	$mysql_password = ""; //password
 	
 	$con = mysqli_connect($mysql_host,$mysql_user,$mysql_password,$mysql_database);
     	if (!$con){
